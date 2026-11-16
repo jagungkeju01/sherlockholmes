@@ -1,0 +1,1 @@
+document.addEventListener('DOMContentLoaded',()=>{const root=document.querySelector('#latest-grid');if(root&&window.Venari)root.innerHTML=window.Venari.products.slice(0,8).map(window.Venari.card).join('')});

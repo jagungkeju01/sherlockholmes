@@ -1,0 +1,8 @@
+/* K VÉNARI — responsive refinements */
+@media(max-width:620px){
+  .product-actions button{padding:10px 4px;font-size:8px}
+  .bag-panel{padding:18px}
+  .bag-line{grid-template-columns:68px 1fr auto;gap:9px}
+  .bag-line img{width:68px;height:82px}
+  .product-name{min-height:0}
+}
